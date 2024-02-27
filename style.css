@@ -16,19 +16,20 @@ body{
     overflow: hidden; 
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
     0 10px 10px rgba(0,0,0,0.22);
+    
 }
 #calculadora{
-    background: white;
+    background: rgb(216, 200, 200);
     width: 50%;
     height: 100%;
     float: left;
 }
 #detalle{
-    background: #FF416C;
+    background: #774102;
     width: 50%;
     height: 100%;
     float: right;
-    color: #f6f5f7;
+    color: #050505;
 
 }
 .contenido{
@@ -37,6 +38,8 @@ body{
     transform: translateY(-50%);
     overflow: hidden;
     padding: 40px;
+    font-size: 20px;
+    
 }
 input{
     width: 70%;
@@ -51,8 +54,8 @@ button{
 	font-weight: bold;
 	padding: 12px 45px;
 	border-radius: 30px;
-	background-color: #FF416C;
-	border: 1px solid #FF416C;
+	background-color: #774102;
+	border: 1px solid #774102;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -68,9 +71,20 @@ button:active{
     
 }
 .resultado{
-    color: #0A81D1;
+    color: #028d02;
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 5px;
     display: none;
 }
+#tipo{
+    color: #06253a;
+    font-size: 20px;
+}
+#completa{
+    color: #028d02;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
